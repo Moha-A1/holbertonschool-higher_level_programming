@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-replace_in_list = __import__('2-replace_in_list').replace_in_list
+
+exec(open('2-replace_in_list.py').read())
 
 my_list = [1, 2, 3, 4, 5]
 idx = 3
