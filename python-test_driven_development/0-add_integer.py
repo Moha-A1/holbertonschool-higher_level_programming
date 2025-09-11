@@ -7,7 +7,9 @@ et gérer les erreurs de type
 
 
 def add_integer(a, b=98):
-
+    """
+    Additionne deux entiers
+    """
     if not isinstance(a, (int, float)):
         raise TypeError("a must be an integer")
     if not isinstance(b, (int, float)):
@@ -19,4 +21,3 @@ def add_integer(a, b=98):
         b = int(b)
 
     return a + b
-
