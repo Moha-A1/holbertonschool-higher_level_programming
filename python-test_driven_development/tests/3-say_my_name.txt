@@ -19,3 +19,16 @@ Traceback (most recent call last):
 ...
 TypeError: last_name must be a string
 
+>>> say_my_name("", "Jebabli")
+My name is  Jebabli
+
+>>> say_my_name(None)
+Traceback (most recent call last):
+...
+TypeError: first_name must be a string
+
+>>> say_my_name("wassef", None)
+Traceback (most recent call last):
+...
+TypeError: last_name must be a string
+
