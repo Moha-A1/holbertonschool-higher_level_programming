@@ -6,7 +6,7 @@ le prénom et nom d'une personne
 """
 
 
-def say_my_name(first_name, last_name=""):
+def say_my_name(first_name, last_name=" "):
     """
     Affiche le nom complet d'une personne
     """
