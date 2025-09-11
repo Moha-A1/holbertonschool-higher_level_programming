@@ -1,4 +1,9 @@
 #!/usr/bin/python3
+"""
+Module pour additionner deux entiers
+Contient une fonction pour additionner deux nombres
+et gérer les erreurs de type
+"""
 
 
 def add_integer(a, b=98):
